@@ -19,7 +19,7 @@ body {
     'Fira Sans',
     'Droid Sans',
     'Helvetica Neue',
-    sans-serif; /* 원하는 폰트로 변경 */
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,18 +27,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.app-container {
-  display: flex;
-  flex-direction: column; /* Header가 최상단에 위치하도록 세로 정렬 */
-  min-height: 100vh; /* 페이지 전체 높이를 채우도록 설정 */
-}
-
-.content {
-  flex-grow: 1; /* 나머지 공간을 차지하도록 설정 */
-  width: 100%;
-  max-width: 1200px; /* 최대 너비 설정 */
-  padding: 20px; /* 여백 추가 */
-  margin: 0 auto; /* 수평 중앙 정렬 */
 }
